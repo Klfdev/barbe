@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Dois Irmãos - Estilo Clássico</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Rye&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="scissors-icon"><i class="fas fa-cut"></i></div>
+        <div class="loading-text">CARREGANDO...</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Barbearia <span class="gold">Dois Irmãos</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact" class="btn-contact">Agendar</a></li>
+                </ul>
+                <div class="mobile-menu-icon" id="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>O Renascimento do <span class="gold">Estilo Clássico</span></h1>
+            <p>Tradição, elegância e um corte impecável. Bem-vindo à Barbearia Dois Irmãos.</p>
+            <a href="#contact" class="btn-main">Agende seu horário</a>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Decorative Divider -->
+    <div class="divider-deco"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <img src="https://placehold.co/600x800/121212/D4AF37?text=Vintage+Vibe" alt="Interior da Barbearia">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h2 class="section-title"><span>Nossa História</span></h2>
+                    <p>Fundada com a paixão por reviver a era de ouro da barbearia, a <strong>Barbearia Dois
+                            Irmãos</strong> oferece mais do que um corte de cabelo; oferecemos uma experiência.
+                        Inspirados nos clássicos salões vintage, combinamos técnicas tradicionais com o conforto
+                        moderno.</p>
+                    <p>Nossos barbeiros são mestres na arte da navalha e da tesoura, garantindo que cada cliente saia
+                        não apenas com um visual renovado, mas com a confiança restaurada.</p>
+                    <div class="signature">
+                        <span>Os Irmãos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title text-center animate-on-scroll"><span>Nossos Serviços</span></h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-cut service-icon"></i>
+                    <h3>Corte Clássico</h3>
+                    <p>Cortes tradicionais e modernos com acabamento impecável.</p>
+                    <span class="price">R$ 50,00</span>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-user-tie service-icon"></i>
+                    <h3>Barba Terapia</h3>
+                    <p>Modelagem de barba com toalha quente e óleos essenciais.</p>
+                    <span class="price">R$ 40,00</span>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-wine-glass-alt service-icon"></i>
+                    <h3>Combo Completo</h3>
+                    <p>Cabelo e barba + uma bebida de cortesia.</p>
+                    <span class="price">R$ 80,00</span>
+                </div>
+            </div>
+
+            <!-- Classic Price List -->
+            <div class="price-list-container animate-on-scroll">
+                <div class="price-item">
+                    <span class="price-name">Corte Tradicional</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 35,00</span>
+                </div>
+                <div class="price-item">
+                    <span class="price-name">Barba Completa (Toalha Quente)</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 30,00</span>
+                </div>
+                <div class="price-item">
+                    <span class="price-name">Combo Real (Corte + Barba)</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 60,00</span>
+                </div>
+                <div class="price-item">
+                    <span class="price-name">Acabamento na Navalha</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 15,00</span>
+                </div>
+                <div class="price-item">
+                    <span class="price-name">Pigmentação de Barba</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 40,00</span>
+                </div>
+                <div class="price-item">
+                    <span class="price-name">Corte Infantil</span>
+                    <span class="price-dots"></span>
+                    <span class="price-value">R$ 30,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="divider-line"></div>
+            <h2 class="section-title animate-on-scroll"><span>O Que Dizem</span></h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial-text">"Melhor barbearia da cidade! O ambiente é incrível e o corte ficou
+                        perfeito. Recomendo demais!"</p>
+                    <span class="client-name">- Carlos Eduardo</span>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial-text">"Experiência única. A barba na toalha quente é sensacional. Virei
+                        cliente fiel."</p>
+                    <span class="client-name">- André Souza</span>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial-text">"Atendimento de primeira e cerveja gelada. O estilo vintage é muito bem
+                        feito."</p>
+                    <span class="client-name">- Felipe Martins</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Carousel) -->
+    <section id="gallery" class="gallery section">
+        <div class="container animate-on-scroll">
+            <h2 class="section-title text-center"><span>Nossa Arte</span></h2>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="https://placehold.co/1200x600/1e1e1e/D4AF37?text=Corte+Impecável" id="lastClone"
+                        alt="Corte 1">
+                    <img src="https://placehold.co/1200x600/121212/D4AF37?text=Ambiente+Vintage" alt="Ambiente">
+                    <img src="https://placehold.co/1200x600/2a1a10/D4AF37?text=Barba+Feita+na+Navalha" alt="Barba">
+                    <img src="https://placehold.co/1200x600/121212/D4AF37?text=Estilo+e+Tradição" alt="Estilo">
+                    <img src="https://placehold.co/1200x600/1e1e1e/D4AF37?text=Corte+Impecável" id="firstClone"
+                        alt="Corte 1">
+                </div>
+                <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <div class="map-section animate-on-scroll">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.098169970346!2d-46.65206948502216!3d-23.56491798468112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1614182928374!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio."
+        class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Barbearia Dois Irmãos</h3>
+                    <p>Rua da Elegância, 1920 - Centro</p>
+                    <p>(11) 99999-9999</p>
+                    <p>contato@barbeariadoisirmaos.com</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Horários</h3>
+                    <p>Ter - Sex: 09:00 - 20:00</p>
+                    <p>Sáb: 09:00 - 18:00</p>
+                    <p>Dom e Seg: Fechado</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Siga-nos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Barbearia Dois Irmãos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
